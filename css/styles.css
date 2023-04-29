@@ -329,11 +329,37 @@ body {
 }
 
 .prof-name {
-  /* padding-bottom: 32px; */
+  margin-bottom: 8px;
   text-align: center;
 
   font-weight: 400;
   line-height: calc(24 / 16);
+}
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.socials-link { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+
+  background-color: var(--iris);
+  border-radius: 50%;
+}
+
+.social-icon {
+  fill: var(--cloud);
+}
+
+.socials-link:hover,
+.socials-link:focus {
+  background-color: var(--green);
 }
 
 /* footer */
