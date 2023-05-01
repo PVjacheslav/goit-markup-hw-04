@@ -118,8 +118,11 @@ body {
   overflow: hidden;
 }
 
-/* header */
-
+/**
+  |============================
+  | Header
+  |============================
+*/
 .page-header {
   border-bottom: 1px solid var(--cornflower);
 }
@@ -203,8 +206,11 @@ body {
   margin-right: 40px;
 } */
 
-/* hero */
-
+/**
+  |============================
+  | Hero
+  |============================
+*/
 .hero {
   max-width: 1440px;
   margin: 0 auto;
@@ -258,8 +264,11 @@ body {
   background-color: var(--ocean);
 }
 
-/* section */
-
+/**
+  |============================
+  | Section: Our advantages
+  |============================
+*/
 .section-adv {
   padding: 120px 0;
 }
@@ -269,8 +278,15 @@ body {
   padding-bottom: 120px;
 }
 
-.feature-icon {
-  
+.adv-container {
+  width: 100%;
+  height: 112px;
+
+  display: flex;
+  justify-content: center;
+
+  background: var(--cloud);
+  border-radius: 4px;
 }
 
 .advantage-title {
@@ -289,8 +305,11 @@ body {
   color: var(--slate);
 }
 
-/* What we doing */
-
+/**
+  |============================
+  | Section: What we doing
+  |============================
+*/
 .work-list {
   --item: 3;
 }
@@ -299,8 +318,11 @@ body {
   margin-right: 24px;
 } */
 
-/* our team */
-
+/**
+  |============================
+  | Section: Our team
+  |============================
+*/
 .section-bg {
   padding: 120px 0;
   text-align: center;
@@ -367,7 +389,17 @@ body {
   color: currentColor;
 }
 
-/* footer */
+/**
+  |============================
+  | Section: Customers
+  |============================
+*/
+
+/**
+  |============================
+  | Footer
+  |============================
+*/
 
 .page-footer {
   padding: 100px 0;
@@ -442,8 +474,11 @@ body {
   color: currentColor;
 }
 
-/* Portfolio */
-
+/**
+  |============================
+  | Portfolio
+  |============================
+*/
 .section-portfolio {
   padding: 96px 0 120px;
 }
