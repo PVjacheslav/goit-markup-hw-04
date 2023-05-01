@@ -448,11 +448,12 @@ body {
 .footer {
   display: flex;
   align-items: baseline;
-  gap: 120px;
+  /* gap: 120px; */
 }
 
 .footer-logo {
   display: inline-block;
+  margin-right: 120px;
 }
 
 .logo-place {
@@ -563,6 +564,10 @@ body {
   padding: 32px 16px;
   border: 1px solid var(--cornflower);
   border-top: none;
+}
+
+.portfolio-link {
+  display: block;
 }
 
 .portfolio-link:hover,
